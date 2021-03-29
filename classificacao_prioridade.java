@@ -6,17 +6,19 @@ public class classificacao_prioridade4 {
 
 	public static void main(String[] args) {
 		int idade;
-		idade = Integer.parseInt(JOptionPane.showInputDialog ("Olá! Quantos anos o(a) senhor (a) tem?"));
+		boolean idade0 = false;
+		do {
+		idade = Integer.parseInt(JOptionPane.showInputDialog ("Olï¿½! Quantos anos o(a) senhor (a) tem?"));
 		    
 	    if (idade <60) { 
 	        JOptionPane.showMessageDialog(null, "Fila Comum "); 
 	      } else { 
 	        if (idade >=60 && idade <79) { 
-		         JOptionPane.showMessageDialog(null, "Fila Prioritária");
+		         JOptionPane.showMessageDialog(null, "Fila Prioritï¿½ria");
 	        } else {
 		        	 JOptionPane.showMessageDialog(null, "Fila 80+");
 	       
 	    }
-	  }
+	  }while (!idade0);
    }
 }
