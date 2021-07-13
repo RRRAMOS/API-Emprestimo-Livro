@@ -3,22 +3,22 @@ O sistema trata-se de uma biblioteca comunitária que faz empréstimos de livros
 
 # EndPoints
 -Cadastro de usuário: 
-Código do usuário 
-Nome completo
-Data de nascimento
+Código do usuário, 
+Nome completo,
+Data de nascimento e
 Endereço 
 
-Cadastro de livros: 
-Código do livro
-Nome
-Autor
+-Cadastro de livros: 
+Código do livro,
+Nome e
+Autor 
 
 -Cadastro de empréstimo:
-Código da solicitação
-Usuario solicitante
-Livro a ser emprestado
-Data da solicitação
-Data da devolução 
+Código da solicitação,
+Usuario solicitante,
+Livro a ser emprestado,
+Data da solicitação,
+Data da devolução. 
 
 # Regra de negócio
 A data da devolução deve ser maior que a data do empréstimo.
