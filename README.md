@@ -1,6 +1,7 @@
 # Sobre
 ```
-O sistema trata-se de uma biblioteca comunitária que faz empréstimos de livros de forma gratuita.  Os livros físicos são organizados, por autor e em ordem alfabética, para facilitar a localização do livro físico
+O sistema trata-se de uma biblioteca comunitária que faz empréstimos de livros de forma gratuita.  
+Os livros físicos são organizados, por autor e em ordem alfabética, para facilitar a localização do livro físico
 ```
 
 # EndPoints
